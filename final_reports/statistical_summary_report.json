@@ -1,0 +1,107 @@
+{
+  "title": "التقرير الإحصائي الشامل",
+  "overview": {
+    "totalTrainees": 10,
+    "totalSessions": 1200,
+    "uniqueDates": 30,
+    "averageSessionsPerTrainee": "120.00",
+    "overallAttendanceRate": 81.58
+  },
+  "specialtyBreakdown": {
+    "INT": {
+      "name": "المعلوماتية",
+      "trainees": 3,
+      "attendance": 360,
+      "rate": "88.33"
+    },
+    "ELE": {
+      "name": "الكهرباء",
+      "trainees": 2,
+      "attendance": 240,
+      "rate": "82.08"
+    },
+    "MECH": {
+      "name": "الميكانيكا",
+      "trainees": 2,
+      "attendance": 240,
+      "rate": "75.83"
+    },
+    "BTP": {
+      "name": "البناء والأشغال العمومية",
+      "trainees": 2,
+      "attendance": 240,
+      "rate": "80.00"
+    },
+    "TEXT": {
+      "name": "النسيج",
+      "trainees": 1,
+      "attendance": 120,
+      "rate": "75.00"
+    }
+  },
+  "levelBreakdown": {
+    "1": {
+      "name": "التكوين المهني المتخصص",
+      "trainees": 1,
+      "attendance": 120,
+      "rate": "75.00"
+    },
+    "2": {
+      "name": "شهادة الكفاءة المهنية",
+      "trainees": 2,
+      "attendance": 240,
+      "rate": "81.67"
+    },
+    "3": {
+      "name": "شهادة التقني",
+      "trainees": 4,
+      "attendance": 480,
+      "rate": "84.38"
+    },
+    "4": {
+      "name": "شهادة التقني السامي",
+      "trainees": 3,
+      "attendance": 360,
+      "rate": "80.00"
+    }
+  },
+  "timeAnalysis": {
+    "2025-09-15": {
+      "total": 40,
+      "present": 31,
+      "rate": "77.50"
+    },
+    "2025-09-16": {
+      "total": 40,
+      "present": 33,
+      "rate": "82.50"
+    },
+    "2025-09-17": {
+      "total": 40,
+      "present": 34,
+      "rate": "85.00"
+    },
+    "2025-09-18": {
+      "total": 40,
+      "present": 30,
+      "rate": "75.00"
+    },
+    "2025-09-19": {
+      "total": 40,
+      "present": 32,
+      "rate": "80.00"
+    },
+    "2025-09-20": {
+      "total": 40,
+      "present": 33,
+      "rate": "82.50"
+    },
+    "2025-09-21": {
+      "total": 40,
+      "present": 34,
+      "rate": "85.00"
+    }
+  },
+  "trends": {},
+  "recommendations": []
+}

@@ -1,0 +1,354 @@
+{
+  "title": "تقرير الحضور اليومي",
+  "date": "2025-09-21",
+  "sessions": {
+    "session1": {
+      "name": "الحصة الأولى (08:00-10:00)",
+      "data": [
+        {
+          "trainee": "أحمد محمد",
+          "status": "present"
+        },
+        {
+          "trainee": "فاطمة علي",
+          "status": "present"
+        },
+        {
+          "trainee": "محمد حسن",
+          "status": "present"
+        },
+        {
+          "trainee": "سارة أحمد",
+          "status": "present"
+        },
+        {
+          "trainee": "يوسف محمود",
+          "status": "present"
+        },
+        {
+          "trainee": "كريم الدين",
+          "status": "present"
+        },
+        {
+          "trainee": "هند عمر",
+          "status": "late"
+        },
+        {
+          "trainee": "عمر السعيد",
+          "status": "absent"
+        },
+        {
+          "trainee": "نور الهدى",
+          "status": "present"
+        },
+        {
+          "trainee": "ليلى بن صالح",
+          "status": "late"
+        }
+      ]
+    },
+    "session2": {
+      "name": "الحصة الثانية (10:15-12:15)",
+      "data": [
+        {
+          "trainee": "أحمد محمد",
+          "status": "present"
+        },
+        {
+          "trainee": "فاطمة علي",
+          "status": "present"
+        },
+        {
+          "trainee": "محمد حسن",
+          "status": "present"
+        },
+        {
+          "trainee": "سارة أحمد",
+          "status": "present"
+        },
+        {
+          "trainee": "يوسف محمود",
+          "status": "present"
+        },
+        {
+          "trainee": "كريم الدين",
+          "status": "present"
+        },
+        {
+          "trainee": "هند عمر",
+          "status": "present"
+        },
+        {
+          "trainee": "عمر السعيد",
+          "status": "present"
+        },
+        {
+          "trainee": "نور الهدى",
+          "status": "present"
+        },
+        {
+          "trainee": "ليلى بن صالح",
+          "status": "present"
+        }
+      ]
+    },
+    "session3": {
+      "name": "الحصة الثالثة (13:00-15:00)",
+      "data": [
+        {
+          "trainee": "أحمد محمد",
+          "status": "present"
+        },
+        {
+          "trainee": "فاطمة علي",
+          "status": "present"
+        },
+        {
+          "trainee": "محمد حسن",
+          "status": "present"
+        },
+        {
+          "trainee": "سارة أحمد",
+          "status": "present"
+        },
+        {
+          "trainee": "يوسف محمود",
+          "status": "late"
+        },
+        {
+          "trainee": "كريم الدين",
+          "status": "present"
+        },
+        {
+          "trainee": "هند عمر",
+          "status": "present"
+        },
+        {
+          "trainee": "عمر السعيد",
+          "status": "present"
+        },
+        {
+          "trainee": "نور الهدى",
+          "status": "present"
+        },
+        {
+          "trainee": "ليلى بن صالح",
+          "status": "late"
+        }
+      ]
+    },
+    "session4": {
+      "name": "الحصة الرابعة (15:15-17:15)",
+      "data": [
+        {
+          "trainee": "أحمد محمد",
+          "status": "present"
+        },
+        {
+          "trainee": "فاطمة علي",
+          "status": "present"
+        },
+        {
+          "trainee": "محمد حسن",
+          "status": "present"
+        },
+        {
+          "trainee": "سارة أحمد",
+          "status": "present"
+        },
+        {
+          "trainee": "يوسف محمود",
+          "status": "present"
+        },
+        {
+          "trainee": "كريم الدين",
+          "status": "present"
+        },
+        {
+          "trainee": "هند عمر",
+          "status": "present"
+        },
+        {
+          "trainee": "عمر السعيد",
+          "status": "present"
+        },
+        {
+          "trainee": "نور الهدى",
+          "status": "present"
+        },
+        {
+          "trainee": "ليلى بن صالح",
+          "status": "absent"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "session1": {
+      "total": 10,
+      "present": 7,
+      "late": 2,
+      "absent": 1
+    },
+    "session2": {
+      "total": 10,
+      "present": 10,
+      "late": 0,
+      "absent": 0
+    },
+    "session3": {
+      "total": 10,
+      "present": 8,
+      "late": 2,
+      "absent": 0
+    },
+    "session4": {
+      "total": 10,
+      "present": 9,
+      "late": 0,
+      "absent": 1
+    }
+  },
+  "trainees": [
+    {
+      "id": 1,
+      "registrationNumber": "INT001",
+      "name": "أحمد محمد",
+      "specialty": "INT",
+      "level": 3,
+      "group": "G1",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 2,
+      "registrationNumber": "INT002",
+      "name": "فاطمة علي",
+      "specialty": "INT",
+      "level": 3,
+      "group": "G1",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 3,
+      "registrationNumber": "INT003",
+      "name": "محمد حسن",
+      "specialty": "INT",
+      "level": 4,
+      "group": "G2",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 4,
+      "registrationNumber": "ELE001",
+      "name": "سارة أحمد",
+      "specialty": "ELE",
+      "level": 2,
+      "group": "G1",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 5,
+      "registrationNumber": "ELE002",
+      "name": "يوسف محمود",
+      "specialty": "ELE",
+      "level": 3,
+      "group": "G1",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 6,
+      "registrationNumber": "MECH001",
+      "name": "كريم الدين",
+      "specialty": "MECH",
+      "level": 4,
+      "group": "G1",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 7,
+      "registrationNumber": "MECH002",
+      "name": "هند عمر",
+      "specialty": "MECH",
+      "level": 4,
+      "group": "G2",
+      "sessions": {
+        "session1": "late",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 8,
+      "registrationNumber": "BTP001",
+      "name": "عمر السعيد",
+      "specialty": "BTP",
+      "level": 2,
+      "group": "G1",
+      "sessions": {
+        "session1": "absent",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 9,
+      "registrationNumber": "BTP002",
+      "name": "نور الهدى",
+      "specialty": "BTP",
+      "level": 3,
+      "group": "G1",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "id": 10,
+      "registrationNumber": "TEXT001",
+      "name": "ليلى بن صالح",
+      "specialty": "TEXT",
+      "level": 1,
+      "group": "G1",
+      "sessions": {
+        "session1": "late",
+        "session2": "present",
+        "session3": "late",
+        "session4": "absent"
+      }
+    }
+  ]
+}

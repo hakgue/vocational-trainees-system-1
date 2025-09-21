@@ -1,0 +1,102 @@
+{
+  "title": "تقرير التحليل حسب التخصص",
+  "specialties": [
+    {
+      "id": "INT",
+      "name": "المعلوماتية",
+      "nameEn": "Informatique",
+      "totalTrainees": 3,
+      "totalSessions": 360,
+      "presentCount": 318,
+      "lateCount": 42,
+      "absentCount": 0,
+      "attendanceRate": "88.33",
+      "punctualityRate": "88.33",
+      "absenteeismRate": "0.00"
+    },
+    {
+      "id": "ELE",
+      "name": "الكهرباء",
+      "nameEn": "Électricité",
+      "totalTrainees": 2,
+      "totalSessions": 240,
+      "presentCount": 197,
+      "lateCount": 32,
+      "absentCount": 11,
+      "attendanceRate": "82.08",
+      "punctualityRate": "82.08",
+      "absenteeismRate": "4.58"
+    },
+    {
+      "id": "MECH",
+      "name": "الميكانيكا",
+      "nameEn": "Mécanique",
+      "totalTrainees": 2,
+      "totalSessions": 240,
+      "presentCount": 182,
+      "lateCount": 44,
+      "absentCount": 14,
+      "attendanceRate": "75.83",
+      "punctualityRate": "75.83",
+      "absenteeismRate": "5.83"
+    },
+    {
+      "id": "BTP",
+      "name": "البناء والأشغال العمومية",
+      "nameEn": "BTP",
+      "totalTrainees": 2,
+      "totalSessions": 240,
+      "presentCount": 192,
+      "lateCount": 37,
+      "absentCount": 11,
+      "attendanceRate": "80.00",
+      "punctualityRate": "80.00",
+      "absenteeismRate": "4.58"
+    },
+    {
+      "id": "TEXT",
+      "name": "النسيج",
+      "nameEn": "Textile",
+      "totalTrainees": 1,
+      "totalSessions": 120,
+      "presentCount": 90,
+      "lateCount": 17,
+      "absentCount": 13,
+      "attendanceRate": "75.00",
+      "punctualityRate": "75.00",
+      "absenteeismRate": "10.83"
+    }
+  ],
+  "comparison": {
+    "highest": {
+      "id": "INT",
+      "name": "المعلوماتية",
+      "nameEn": "Informatique",
+      "totalTrainees": 3,
+      "totalSessions": 360,
+      "presentCount": 318,
+      "lateCount": 42,
+      "absentCount": 0,
+      "attendanceRate": "88.33",
+      "punctualityRate": "88.33",
+      "absenteeismRate": "0.00"
+    },
+    "lowest": {
+      "id": "TEXT",
+      "name": "النسيج",
+      "nameEn": "Textile",
+      "totalTrainees": 1,
+      "totalSessions": 120,
+      "presentCount": 90,
+      "lateCount": 17,
+      "absentCount": 13,
+      "attendanceRate": "75.00",
+      "punctualityRate": "75.00",
+      "absenteeismRate": "10.83"
+    },
+    "average": {
+      "attendanceRate": "80.25"
+    }
+  },
+  "recommendations": []
+}

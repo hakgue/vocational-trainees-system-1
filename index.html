@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة إدارة المتدربين - وزارة التكوين والتعليم المهنيين</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#2c5aa0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="./assets/icon-192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="منصة إدارة المتدربين">
+    
+    <!-- CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/theme.css">
+</head>
+<body class="rtl-layout">
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+            <h3 class="text-primary mt-3">منصة إدارة المتدربين</h3>
+            <p>جاري التحميل...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-gradient fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./assets/logo.png" alt="Logo" height="40" class="me-2">
+                <span>منصة إدارة المتدربين</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#dashboard" data-section="dashboard">
+                            <i class="fas fa-tachometer-alt"></i> لوحة التحكم
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trainees" data-section="trainees">
+                            <i class="fas fa-users"></i> إدارة المتدربين
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#attendance" data-section="attendance">
+                            <i class="fas fa-calendar-check"></i> الحضور والغياب
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#evaluation" data-section="evaluation">
+                            <i class="fas fa-chart-line"></i> التقييم والدرجات
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reports" data-section="reports">
+                            <i class="fas fa-file-alt"></i> التقارير
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#settings" data-section="settings">
+                            <i class="fas fa-cog"></i> الإعدادات
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="navbar-nav">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-user"></i> المستخدم
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-start">
+                            <li><a class="dropdown-item" href="#profile"><i class="fas fa-user-edit"></i> الملف الشخصي</a></li>
+                            <li><a class="dropdown-item" href="#backup"><i class="fas fa-download"></i> نسخ احتياطي</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#logout"><i class="fas fa-sign-out-alt"></i> تسجيل الخروج</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-fluid">
+            <!-- Dashboard Section -->
+            <section id="dashboard-section" class="content-section active">
+                <div class="page-header">
+                    <h1 class="page-title">
+                        <i class="fas fa-tachometer-alt text-primary"></i>
+                        لوحة التحكم الرئيسية
+                    </h1>
+                    <p class="page-subtitle">نظرة شاملة على إحصائيات المنصة</p>
+                </div>
+                
+                <!-- Stats Cards -->
+                <div class="row mb-4">
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card stats-card stats-primary">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col me-2">
+                                        <div class="stats-label">إجمالي المتدربين</div>
+                                        <div class="stats-number" id="totalTrainees">0</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-users fa-2x text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card stats-card stats-success">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col me-2">
+                                        <div class="stats-label">الحضور اليوم</div>
+                                        <div class="stats-number" id="todayAttendance">0</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-check-circle fa-2x text-success"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card stats-card stats-warning">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col me-2">
+                                        <div class="stats-label">المتأخرين</div>
+                                        <div class="stats-number" id="lateTrainees">0</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-clock fa-2x text-warning"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card stats-card stats-danger">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col me-2">
+                                        <div class="stats-label">الغائبين</div>
+                                        <div class="stats-number" id="absentTrainees">0</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-times-circle fa-2x text-danger"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charts Row -->
+                <div class="row">
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="card chart-card">
+                            <div class="card-header">
+                                <h5 class="card-title">
+                                    <i class="fas fa-chart-line"></i>
+                                    إحصائيات الحضور الشهرية
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="attendanceChart" height="100"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="card chart-card">
+                            <div class="card-header">
+                                <h5 class="card-title">
+                                    <i class="fas fa-chart-pie"></i>
+                                    توزيع التخصصات
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="specialtyChart" height="150"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Recent Activities -->
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">
+                                    <i class="fas fa-clock"></i>
+                                    آخر الأنشطة
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="recentActivities" class="activity-timeline">
+                                    <!-- Activities will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Other sections will be added dynamically -->
+            <section id="trainees-section" class="content-section">
+                <!-- Trainees management content -->
+            </section>
+            
+            <section id="attendance-section" class="content-section">
+                <!-- Attendance management content -->
+            </section>
+            
+            <section id="evaluation-section" class="content-section">
+                <!-- Evaluation management content -->
+            </section>
+            
+            <section id="reports-section" class="content-section">
+                <!-- Reports content -->
+            </section>
+            
+            <section id="settings-section" class="content-section">
+                <!-- Settings content -->
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid text-center">
+            <span class="text-muted">
+                © 2025 منصة إدارة المتدربين - وزارة التكوين والتعليم المهنيين الجزائرية
+            </span>
+        </div>
+    </footer>
+
+    <!-- Modals will be added dynamically -->
+    <div id="modalContainer"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="./js/database.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/dashboard.js"></script>
+    <script src="./js/trainees.js"></script>
+    <script src="./js/attendance.js"></script>
+    <script src="./js/evaluation.js"></script>
+    <script src="./js/reports.js"></script>
+    <script src="./js/reports_advanced.js"></script>
+    <script src="./js/settings.js"></script>
+    <script src="./js/init.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then((registration) => {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch((registrationError) => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,638 @@
+{
+  "title": "تقرير الحضور الأسبوعي",
+  "week": "من 2025-09-21 إلى 2025-09-27",
+  "days": [
+    "2025-09-21",
+    "2025-09-22",
+    "2025-09-23",
+    "2025-09-24",
+    "2025-09-25",
+    "2025-09-26",
+    "2025-09-27"
+  ],
+  "trainees": [
+    {
+      "id": 1,
+      "name": "أحمد محمد",
+      "specialty": "INT",
+      "level": 3,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 4,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 2,
+      "name": "فاطمة علي",
+      "specialty": "INT",
+      "level": 3,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 4,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 3,
+      "name": "محمد حسن",
+      "specialty": "INT",
+      "level": 4,
+      "group": "G2",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 4,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 4,
+      "name": "سارة أحمد",
+      "specialty": "ELE",
+      "level": 2,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 4,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 5,
+      "name": "يوسف محمود",
+      "specialty": "ELE",
+      "level": 3,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "late",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 3,
+        "late": 1,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 6,
+      "name": "كريم الدين",
+      "specialty": "MECH",
+      "level": 4,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 4,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 7,
+      "name": "هند عمر",
+      "specialty": "MECH",
+      "level": 4,
+      "group": "G2",
+      "days": {
+        "2025-09-21": {
+          "session1": "late",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 3,
+        "late": 1,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 8,
+      "name": "عمر السعيد",
+      "specialty": "BTP",
+      "level": 2,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "absent",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 3,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 9,
+      "name": "نور الهدى",
+      "specialty": "BTP",
+      "level": 3,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "present",
+          "session2": "present",
+          "session3": "present",
+          "session4": "present"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 4,
+        "late": 0,
+        "absent": 24,
+        "total": 28
+      }
+    },
+    {
+      "id": 10,
+      "name": "ليلى بن صالح",
+      "specialty": "TEXT",
+      "level": 1,
+      "group": "G1",
+      "days": {
+        "2025-09-21": {
+          "session1": "late",
+          "session2": "present",
+          "session3": "late",
+          "session4": "absent"
+        },
+        "2025-09-22": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-23": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-24": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-25": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-26": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        },
+        "2025-09-27": {
+          "session1": "غائب",
+          "session2": "غائب",
+          "session3": "غائب",
+          "session4": "غائب"
+        }
+      },
+      "weekStats": {
+        "present": 1,
+        "late": 2,
+        "absent": 24,
+        "total": 28
+      }
+    }
+  ],
+  "dailySummary": {
+    "2025-09-21": {
+      "present": 34,
+      "late": 4,
+      "absent": 2,
+      "total": 40
+    },
+    "2025-09-22": {
+      "present": 0,
+      "late": 0,
+      "absent": 0,
+      "total": 0
+    },
+    "2025-09-23": {
+      "present": 0,
+      "late": 0,
+      "absent": 0,
+      "total": 0
+    },
+    "2025-09-24": {
+      "present": 0,
+      "late": 0,
+      "absent": 0,
+      "total": 0
+    },
+    "2025-09-25": {
+      "present": 0,
+      "late": 0,
+      "absent": 0,
+      "total": 0
+    },
+    "2025-09-26": {
+      "present": 0,
+      "late": 0,
+      "absent": 0,
+      "total": 0
+    },
+    "2025-09-27": {
+      "present": 0,
+      "late": 0,
+      "absent": 0,
+      "total": 0
+    }
+  },
+  "weekSummary": {
+    "totalRecords": 40,
+    "presentCount": 34,
+    "lateCount": 4,
+    "absentCount": 2,
+    "presentPercentage": "85.00",
+    "latePercentage": "10.00",
+    "absentPercentage": "5.00"
+  }
+}

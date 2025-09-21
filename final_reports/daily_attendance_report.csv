@@ -1,0 +1,11 @@
+رقم التسجيل,الاسم,التخصص,المستوى,المجموعة,الحصة الأولى,الحصة الثانية,الحصة الثالثة,الحصة الرابعة
+INT001,أحمد محمد,INT,3,G1,present,present,present,present
+INT002,فاطمة علي,INT,3,G1,present,present,present,present
+INT003,محمد حسن,INT,4,G2,present,present,present,present
+ELE001,سارة أحمد,ELE,2,G1,present,present,present,present
+ELE002,يوسف محمود,ELE,3,G1,present,present,late,present
+MECH001,كريم الدين,MECH,4,G1,present,present,present,present
+MECH002,هند عمر,MECH,4,G2,late,present,present,present
+BTP001,عمر السعيد,BTP,2,G1,absent,present,present,present
+BTP002,نور الهدى,BTP,3,G1,present,present,present,present
+TEXT001,ليلى بن صالح,TEXT,1,G1,late,present,late,absent

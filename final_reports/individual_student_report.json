@@ -1,0 +1,295 @@
+{
+  "title": "تقرير المتدرب الفردي",
+  "trainee": {
+    "id": 1,
+    "registrationNumber": "INT001",
+    "name": "أحمد محمد",
+    "specialty": "INT",
+    "level": 3,
+    "group": "G1",
+    "specialtyName": "المعلوماتية"
+  },
+  "attendance": [
+    {
+      "date": "2025-09-21",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "sessions": {
+        "session1": "late",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "sessions": {
+        "session1": "present",
+        "session2": "late",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "late"
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "sessions": {
+        "session1": "late",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "sessions": {
+        "session1": "late",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "sessions": {
+        "session1": "present",
+        "session2": "late",
+        "session3": "present",
+        "session4": "late"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "late"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-31",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-30",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "late",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-24",
+      "sessions": {
+        "session1": "present",
+        "session2": "late",
+        "session3": "present",
+        "session4": "present"
+      }
+    },
+    {
+      "date": "2025-08-23",
+      "sessions": {
+        "session1": "present",
+        "session2": "present",
+        "session3": "present",
+        "session4": "present"
+      }
+    }
+  ],
+  "statistics": {
+    "totalSessions": 120,
+    "presentCount": 105,
+    "lateCount": 15,
+    "absentCount": 0,
+    "attendanceRate": "87.50",
+    "punctualityRate": "87.50",
+    "absenteeismRate": "0.00"
+  },
+  "trends": {},
+  "recommendations": []
+}
